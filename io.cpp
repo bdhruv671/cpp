@@ -1,7 +1,10 @@
-#include <iostream>
-
+#include <bits/stdc++.h>
+// it includes all the libraries 
+using namespace std;
 int main() {
-    std::cout << "Hello World!" << std::endl;
+   int x,y ;
+   cin >> x>>y;
+   cout << "value of x is: \n"<< x<<"\n"<<" and y :"<<y ;
 
         return 0;
         }
