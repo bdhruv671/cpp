@@ -10,5 +10,13 @@ int main (){
     int b[2][3];
     b[0][1]= 45;
     cout << b[0][1]<< endl ;
+    
+    // string
+    string s = "hello";
+    int len = s.size();
+    s[len-1] = 'n';
+    cout << s[len-1]<< endl;
+    cout << s[0]<<endl;
+    
     return 0;
 }
