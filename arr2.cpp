@@ -1,22 +1,25 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main (){
-    // this is 1d arr
-    int arr[5];
-    // cin >> arr[1]>>arr[2];
-    // cout << arr[1]<<endl;
 
-// this is 2d array 
-    int b[2][3];
-    b[0][1]= 45;
-    cout << b[0][1]<< endl ;
+int main(){
     
-    // string
-    string s = "hello";
-    int len = s.size();
-    s[len-1] = 'n';
-    cout << s[len-1]<< endl;
-    cout << s[0]<<endl;
+    int arr[10]={1,2,3};
+    int n= 10;
+    for (int i =0;i<n;i++){
+
     
+    cout<< arr[i] <<endl;
+    }
+// int second[10] ={0};
+// int ns=10;
+// for (int i = 0;i<ns;i++)
+// {
+//     cout << endl<< second[i]<<endl;
+// }
+// cout<<endl;
+int arrsize = sizeof(arr)/sizeof(int);
+cout<< arrsize<<endl;
+    cout<<"compile successfully"<< endl;
     return 0;
+
 }
